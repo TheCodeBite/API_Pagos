@@ -1,0 +1,26 @@
+{
+  "name": "tics",
+  "version": "1.0.0",
+  "description": "Servidor stripe",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mocha": "^6.2.0",
+    "nodemon": "^2.0.1",
+    "stripe": "^7.14.0"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha ./server.spec.js --timeout 60000 --exit",
+    "start": "node server.js"
+  },
+  "author": "Kevin Alejandro Martinez Hernandez",
+  "license": "ISC"
+}
